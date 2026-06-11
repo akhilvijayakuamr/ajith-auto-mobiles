@@ -17,12 +17,13 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About Us", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Spare Part", href: "#spare-parts" },
-    { name: "Why Choose Us", href: "#why-choose-us" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/#home" },
+    { name: "About Us", href: "/#about" },
+    { name: "Services", href: "/#services" },
+    { name: "Spare Part", href: "/#spare-parts" },
+    { name: "Why Choose Us", href: "/#why-choose-us" },
+    { name: "Blog", href: "/blog" },
+    { name: "Contact", href: "/#contact" },
   ];
 
   useEffect(() => {
@@ -54,7 +55,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <a href="#home" className="flex items-center gap-2 group">
+            <a href="/#home" className="flex items-center gap-2 group">
               <motion.div
                 whileHover={{ rotate: 180 }}
                 transition={{ duration: 0.5 }}

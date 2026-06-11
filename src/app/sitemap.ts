@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/three-wheeler-workshop-nedumkandam",
     "/three-wheeler-workshop-adimali",
     "/three-wheeler-workshop-thodupuzha",
+    "/blog",
+    "/blog/how-to-increase-three-wheeler-mileage",
+    "/blog/common-piaggio-ape-engine-problems",
+    "/blog/atul-auto-maintenance-checklist",
+    "/blog/best-engine-oil-for-three-wheelers",
+    "/blog/when-to-replace-brake-shoes",
   ];
 
   return routes.map((route) => ({
