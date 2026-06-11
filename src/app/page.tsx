@@ -9,6 +9,7 @@ import SpareParts from "@/components/sections/SpareParts";
 import SparePartsGallery from "@/components/sections/SparePartsGallery";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Testimonials from "@/components/sections/Testimonials";
+import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/common/WhatsAppButton";
@@ -33,6 +34,7 @@ export default function Home() {
         <SparePartsGallery />
         <WhyChooseUs />
         <Testimonials />
+        <FAQ />
         <Contact />
       </main>
 

@@ -15,15 +15,15 @@ const geistMono = Geist_Mono({
 const baseUrl = "https://ajithautomobiles.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Ajith Auto Mobiles | Three-Wheeler Workshop near Kootar, Kerala",
-  description: "Expert three-wheeler repair, engine overhauls, and electrical diagnostics near Chettikuzhy and Kootar. 17+ years of experience in Piaggio Ape & Atul Auto service.",
+  title: "Ajith Auto Mobiles | Three Wheeler Workshop in Idukki | Piaggio Ape, Atul Auto & Mahindra Alfa Service",
+  description: "Best three wheeler workshop in Idukki, Kerala. Specialists in Piaggio Ape service, Atul Auto repair, and Mahindra Alfa diagnostics. 17+ years of experience near Kootar & Chettikuzhy.",
   metadataBase: new URL(baseUrl),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ajith Auto Mobiles | Three-Wheeler Workshop near Kootar, Kerala",
-    description: "Expert three-wheeler repair, engine overhauls, and electrical diagnostics near Chettikuzhy and Kootar. 17+ years of experience in Piaggio Ape & Atul Auto service.",
+    title: "Ajith Auto Mobiles | Three Wheeler Workshop in Idukki | Piaggio Ape, Atul Auto & Mahindra Alfa Service",
+    description: "Best three wheeler workshop in Idukki, Kerala. Specialists in Piaggio Ape service, Atul Auto repair, and Mahindra Alfa diagnostics. 17+ years of experience near Kootar & Chettikuzhy.",
     url: baseUrl,
     siteName: "Ajith Auto Mobiles",
     locale: "en_IN",
@@ -45,18 +45,18 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Ajith Auto Mobiles",
-    "image": `${baseUrl}/og-image.jpg`,
+    "image": `${baseUrl}/piaggio_brand.png`,
     "@id": `${baseUrl}/#localbusiness`,
     "url": baseUrl,
-    "telephone": "+916282771225",
+    "telephone": "+91-6282771225",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Bank, Lekshmivilasam Building, Chettikuzhy",
-      "addressLocality": "Near Kootar",
-      "addressRegion": "Kerala",
+      "streetAddress": "Lekshmivilasam Building, Chettikuzhy",
+      "addressLocality": "Chettikuzhy",
+      "addressRegion": "Idukki",
       "postalCode": "685552",
-      "addressCountry": "IN"
+      "addressCountry": "India"
     },
     "geo": {
       "@type": "GeoCoordinates",

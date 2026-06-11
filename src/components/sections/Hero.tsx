@@ -64,7 +64,7 @@ export default function Hero() {
   }, []);
 
   // 2. Letter-by-letter reveal configuration
-  const headline = "Keeping Kerala's Three Wheelers Moving";
+  const headline = "Best Three Wheeler Workshop in Idukki, Kerala";
   
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -159,7 +159,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 1.2 }}
               className="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto lg:mx-0"
             >
-              17+ Years of Trusted Service, Repairs & Genuine Spare Parts for Piaggio Ape, Atul Auto, and all commercial passenger and cargo three-wheelers.
+              Piaggio Ape, Atul Auto & Mahindra Alfa Specialists. 17+ Years of Trusted Service, Repairs & Genuine Spare Parts in Chettikuzhy near Kootar.
             </motion.p>
 
             {/* GSAP Magnetic Action Buttons */}
